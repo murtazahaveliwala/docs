@@ -37,8 +37,8 @@ The core-elements and paper-elements collections include a number of elements th
   </google-youtube>
 </div>
 
-[`<core-header-panel>`](/docs/elements/core-elements.html#core-header-panel) is often combined with a
-[`<core-toolbar>`](/docs/elements/core-elements.html#core-toolbar). When you use a `<core-toolbar>`,
+[`<core-header-panel>`](/docs/elements/core-header-panel.html) is often combined with a
+[`<core-toolbar>`](/docs/elements/core-toolbar.html). When you use a `<core-toolbar>`,
 the panel automatically places it in the header area.  You can also use any type of element in your
 header by adding the `core-header` class to its class list.
 
@@ -112,13 +112,13 @@ Use the following code to create the toolbar shown above:
 
 If the core-header-panel is in `waterfall-tall` mode, it controls the height of the toolbar automatically, so you shouldn't set `medium-tall` or `tall` on the toolbar yourself.
 
-**Tip:** For fancy scrolling effects where the toolbar animates between tall and condensed states, you can use [`<core-scroll-header-panel>`](/docs/elements/core-elements.html#core-scroll-header-panel). See  the [demos](/components/core-scroll-header-panel/demo.html) here. You may need to look at the source for the demos to implement the more complicated effects.
+**Tip:** For fancy scrolling effects where the toolbar animates between tall and condensed states, you can use [`<core-scroll-header-panel>`](/docs/elements/core-scroll-header-panel.html). See  the [demos](/components/core-scroll-header-panel/demo.html) here. You may need to look at the source for the demos to implement the more complicated effects.
 {: .alert .alert-info }
 
 
 ## Responsive side nav
 
-The [`<core-drawer-panel>`](/docs/elements/core-elements.html#core-drawer-panel)
+The [`<core-drawer-panel>`](/docs/elements/core-drawer-panel.html)
 element creates a left or right side nav area alongside
 the main content area. On narrow screens, the nav area acts as a drawer that can
 be hidden or revealed by calling the drawer panel's `togglePanel` method.
@@ -157,7 +157,7 @@ On desktop, resize the browser window to see the different modes.
 
 ### Side nav with `<core-scaffold>`
 
-The [`<core-scaffold>`](/docs/elements/core-elements.html#core-scaffold)  element
+The [`<core-scaffold>`](/docs/elements/core-scaffold.html)  element
 assembles a commonly-used combination of components:
 a `<core-drawer-panel>` with a `<core-header-panel>` and `<core-toolbar>` for the
 main content area. It also includes a button to display the navigation drawer.
